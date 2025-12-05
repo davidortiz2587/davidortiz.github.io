@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.fbcc2fef.css",
-    "main.js": "/static/js/main.8933d8ae.js",
-    "static/js/453.9747bf85.chunk.js": "/static/js/453.9747bf85.chunk.js",
-    "index.html": "/index.html",
-    "main.fbcc2fef.css.map": "/static/css/main.fbcc2fef.css.map",
-    "main.8933d8ae.js.map": "/static/js/main.8933d8ae.js.map",
-    "453.9747bf85.chunk.js.map": "/static/js/453.9747bf85.chunk.js.map"
+    "main.css": "/davidortiz.github.io/static/css/main.fbcc2fef.css",
+    "main.js": "/davidortiz.github.io/static/js/main.b3c3d195.js",
+    "static/js/453.9747bf85.chunk.js": "/davidortiz.github.io/static/js/453.9747bf85.chunk.js",
+    "index.html": "/davidortiz.github.io/index.html",
+    "main.fbcc2fef.css.map": "/davidortiz.github.io/static/css/main.fbcc2fef.css.map",
+    "main.b3c3d195.js.map": "/davidortiz.github.io/static/js/main.b3c3d195.js.map",
+    "453.9747bf85.chunk.js.map": "/davidortiz.github.io/static/js/453.9747bf85.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fbcc2fef.css",
-    "static/js/main.8933d8ae.js"
+    "static/js/main.b3c3d195.js"
   ]
 }
