@@ -18,8 +18,8 @@ export default function WebWhiteboard() {
           </p>
           <p>
             This project was built using HTML5 Canvas and JavaScript to provide a smooth drawing experience directly in the browser. 
-            Users can choose from various brush sizes and colors, and even toggle a grid overlay to help with alignment. Check out a demo video below and access the website 
-            <a href="https://davidortiz2587.github.io/web-whiteboard/" target="_blank" rel="noopener noreferrer"> here</a>.
+            Users can choose from various brush sizes and colors, and even toggle a grid overlay to help with alignment. Check out a demo video below and access the 
+            website <a href="https://davidortiz2587.github.io/web-whiteboard/" target="_blank" rel="noopener noreferrer">here</a>.
           </p>
         </div>
       </div>
