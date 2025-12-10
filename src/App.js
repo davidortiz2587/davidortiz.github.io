@@ -4,6 +4,7 @@ import WebWhiteboard from './WebWhiteboard';
 import GrammyLLM from './GrammyLLM';
 import BillSplitter from './BillSplitter';
 import SportsTalk from './SportsTalk';
+import Resume from './Resume';
 import './App.css';
 
 export default function Portfolio() {
@@ -13,7 +14,7 @@ export default function Portfolio() {
     { label: 'About Me', icon: '👤' },
     { label: 'GitHub', icon: '🖥️', url: 'https://github.com/davidortiz2587' },
     { label: 'LinkedIn', icon: '📱', url: 'https://www.linkedin.com/in/david-jack-ortiz/' },
-    { label: 'Resume', icon: '📄', url:'' }
+    { label: 'Resume', icon: '📄' }
   ];
 
   const projectItems = [
@@ -177,7 +178,9 @@ export default function Portfolio() {
 
             {/* Content Area */}
             <div className="content-area">
-              {activeProject === 'Web Whiteboard' ? (
+              {activeSection === 'Resume' ? (
+                <Resume />
+              ) : activeProject === 'Web Whiteboard' ? (
                 <WebWhiteboard />
               ) : activeProject === 'Grammy LLM' ? (
                 <GrammyLLM />
