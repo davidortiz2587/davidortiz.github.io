@@ -19,7 +19,7 @@ export default function BillSplitter() {
           </p>
           <p>
             This project was built using HTML, CSS, and JavaScript to provide a user-friendly interface for splitting bills. 
-            Scroll down to see a video demo and access the website here
+            Scroll down to see a video demo and access the website <a href="https://davidortiz2587.github.io/bill-splitter/" target="_blank" rel="noopener noreferrer">here</a>.
           </p>
         </div>
       </div>
