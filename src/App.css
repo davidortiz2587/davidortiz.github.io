@@ -89,19 +89,14 @@
 /* Portfolio Container */
 .portfolio-container {
   min-height: 100vh;
-  height: 100vh;
+  height: auto;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 2rem;
-  padding-top: 0rem;
-  padding-bottom: 3rem;
-  overflow: hidden;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
+  padding: 1.5rem;
+  padding-bottom: 2rem;
+  overflow: auto;
+  position: relative;
 }
 
 /* Window Wrapper */
@@ -343,7 +338,8 @@
 .main-content {
   display: flex;
   background-color: white;
-  height: 700px;
+  min-height: 60vh;
+  height: auto;
 }
 
 /* Sidebar */
@@ -476,6 +472,7 @@
   flex: 1;
   padding: 1.5rem;
   overflow: auto;
+  min-height: 24rem;
 }
 
 .about-content {
@@ -627,4 +624,77 @@
   display: block;
   border-radius: 8px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Responsive adjustments */
+@media (max-width: 1200px) {
+  .portfolio-container {
+    padding: 1rem;
+  }
+
+  .window-wrapper {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 900px) {
+  .toolbar {
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+
+  .search-box {
+    width: 100%;
+    order: 3;
+  }
+
+  .main-content {
+    flex-direction: row;
+    min-height: auto;
+  }
+
+  .sidebar {
+    width: 10.5rem;
+    border-right: 1px solid #d1d5db;
+    border-bottom: none;
+    flex-shrink: 0;
+  }
+
+  .sidebar-content {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .sidebar-items {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 0.35rem;
+  }
+
+  .content-area {
+    padding: 1.25rem;
+  }
+
+  .info-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 640px) {
+  .portfolio-container {
+    padding: 0.75rem;
+  }
+
+  .toolbar {
+    padding: 0.5rem 0.75rem;
+  }
+
+  .content-area {
+    padding: 1rem;
+  }
+
+  .skills-tags {
+    gap: 0.35rem;
+  }
 }
